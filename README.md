@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ROOK is a company surfaced via the API Evangelist harvest backlog (source: tag-qc) and added to the network as a stub for full-pipeline profiling.
-- https://www.tryrook.io
+ROOK provides a unified Health Data API that aggregates data from wearables, medical devices, electronic health records (EHR), and laboratory results. By offering a single integration point, developers can collect, normalize, and analyze health data across thousands of sources without building multiple connectors. The platform supports real‑time streaming, secure data handling, and comprehensive analytics to enable personalized health insights and interoperability for healthcare applications.
+
+**Areas:** Health · Data Integration · Wearables · Healthcare
+
+## ROOK on APIs.io
+
+Everything profiled for ROOK is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tryrook-io/](https://apis.io/providers/tryrook-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [ROOK Client Uuid API](https://apis.io/apis/tryrook-io/tryrook-io-client-uuid-api/) — The Client Uuid API from ROOK — 1 operation(s) for client uuid.
+- [ROOK Extraction App API](https://apis.io/apis/tryrook-io/tryrook-io-extraction-app-api/) — The Extraction App API from ROOK — 1 operation(s) for extraction app.
+- [ROOK User Id API](https://apis.io/apis/tryrook-io/tryrook-io-user-id-api/) — The User Id API from ROOK — 2 operation(s) for user id.
+- [ROOK User Profile API](https://apis.io/apis/tryrook-io/tryrook-io-user-profile-api/) — The User Profile API from ROOK — 1 operation(s) for user profile.
+- [ROOK Webhooks API](https://apis.io/apis/tryrook-io/tryrook-io-webhooks-api/) — The Webhooks API from ROOK — 1 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [GetApiV1UserIdUseridDataSourceDatasourceAuthorizerResponse](https://apis.io/schemas/tryrook-io/tryrook-io-get-api-v1-user-id-userid-data-source-datasource-authorizer-response/)
+- [PostApiV1ExtractionAppBindingRequest](https://apis.io/schemas/tryrook-io/tryrook-io-post-api-v1-extraction-app-binding-request/)
+- [PostApiV1ExtractionAppBindingResponse](https://apis.io/schemas/tryrook-io/tryrook-io-post-api-v1-extraction-app-binding-response/)
+- [PostApiV2UserProfileResponse](https://apis.io/schemas/tryrook-io/tryrook-io-post-api-v2-user-profile-response/)
+- [PostClientUuidRookClientUuidUserIdUserIdResponse](https://apis.io/schemas/tryrook-io/tryrook-io-post-client-uuid-rook-client-uuid-user-id-user-id-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tryrook Io Context](https://apis.io/jsonld/tryrook-io/tryrook-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ROOK API Rules](https://apis.io/rules/tryrook-io/tryrook-io-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tryrook Io Authentication](https://apis.io/security/tryrook-io/tryrook-io-authentication/)
+- [Tryrook Io Domain Security](https://apis.io/security/tryrook-io/tryrook-io-domain-security/)
+- [Tryrook Io Trust Center](https://apis.io/security/tryrook-io/tryrook-io-trust-center/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Tryrook Io Plans Pricing](https://apis.io/plans/tryrook-io/tryrook-io-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.tryrook.io)
+- [Documentation](https://docs.tryrook.io)
+- [Getting started](https://docs.tryrook.io/docs/rookconnect/quickstart/)
+- [Pricing](https://tryrook.io/pricing/)
+- [Support](https://tryrook.io/contact-us)
+- [Blog](https://tryrook.io/blog)
+- [Compliance](https://tryrook.io/compliance/)
+- [Terms of service](https://tryrook.io/terms/)
+- [Privacy policy](https://tryrook.io/privacy-policy/)
+- [GitHub](https://github.com/RookeriesDevelopment)
+- [Status](https://rook.statuspage.io/)
+
+## API Evangelist rating
+
+**Kin Score 47.1** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 69.6 |
+| Contract quality | 26.0 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 78.9 |
+
+**Agent readiness 30.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 23.4** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tryrook-io/](https://apis.io/providers/tryrook-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ROOK: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tryrook-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
